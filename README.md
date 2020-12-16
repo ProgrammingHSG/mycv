@@ -5,6 +5,7 @@
 * 1 CSS file (style.css) which defines the appearance of the HTML items
 * 1 JavaScript (apps.js) which contains the code supporting the dynamic functionality 
 * 2 third-party code files (particles.js & particlesjs-config.json) which support the interactive particules landing page background (from https://vincentgarreau.com/particles.js/)
+* 1 "images" folder which includes all the images/ incons/ video used in the template. NOTE: they files are already linked in the HTML file by default
 
 ## Necessary libraries
 * https://materializecss.com/
