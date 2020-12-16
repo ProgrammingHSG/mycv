@@ -1,0 +1,590 @@
+/* USAGE OF !IMPORTANT BECAUSE OF AN IMPLEMENTED LIBRARY */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppings', sans-serif !important;
+    overflow: hidden;
+
+}
+
+section {
+    height: 100vh;  
+}
+
+main{
+    height: 100vh;
+}
+
+h1 {
+    font-size: 15px !important;
+}
+
+.nav-lst{
+    list-style-type: none;
+}
+
+a, u {
+    text-decoration: none;
+    display: block;
+}
+
+.btn{
+    width: auto !important;
+}
+
+
+/*Landing*/
+#particles-js{
+    height: 100vh;
+    width: auto;
+}
+.text-landing {
+    position: absolute;
+    bottom: 0;
+    margin: 100px;
+    width: 40%;
+}
+.name-landing {
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 10px;  
+    color: #585858;
+    margin-bottom: 30px;   
+}
+.catch-phrase-landing{
+    font-size: 80px;
+    font-weight: 550; 
+    width: 75%;
+    line-height: 1.3;
+}
+    /*Fixed LinkedIn Icon*/
+.linked-in {
+    margin: 0;
+    height: auto;
+    width: 4.5%;
+    position: fixed;
+    top: 80%;
+    right: 0px;
+    transform: rotate(-90deg);
+    z-index: 5000;
+}
+.picture-landing {
+    height: 90%;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    z-index: 0;  
+}
+    /*From Bottom to Top decreasing Gardient over the Profile Picture*/
+.Gradient {
+    width: 100%;
+    height: 35%;
+    background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0));
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+}
+.picture-file-landing {
+    height: 100%; 
+    z-index: 0; 
+    width: auto;
+}
+.signature-landing {
+    height: 15%;
+    width: auto;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    z-index: 2;
+}
+
+
+/* About me sector - usage of flexbox (first direction:row, lastly direction: column  */
+.about {
+    width: auto;
+    height: 100vh;
+}
+.about-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.picture-container {
+    width: 55%;
+    margin: 10px;
+}
+.picture-about {
+    width: 100%;
+    object-fit: cover;
+}
+.nav-about {
+    list-style-type: none;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+}
+.nav-about .nav-lst .passive {
+    margin: 0;
+    font-weight: bold;
+    opacity: 0.5;
+    color: #222222;
+}
+.nav-about .nav-lst .active {
+
+    margin: 0;
+    font-weight: bold;
+    color: #222222;
+}
+.text-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 10% 0 10%;
+    color: #222222;
+    margin-bottom: 1vh;
+    
+}
+.upcase-about {
+    font-size: 18px !important;
+    text-align: center;
+    letter-spacing: 14px;
+    color: #585858;
+    margin:5% 0 50px 0;
+
+}
+.bold-about {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.thin-about {
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+/* Education */
+.education {
+    height: 100vh;
+    overflow: hidden;
+    /*Background-color for video*/
+    background-color: #585858;
+}
+video{
+    width: 100vw !important;
+    position: absolute;
+    opacity: 20%;
+}
+ul.indicators {
+    top: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/* Transform the indicators to a "slidebar" with an active indicator as a "slider" */
+.carousel .indicators li.indicator-item {
+    border-radius: 0px;
+    margin: 0px;
+    height: 20px;
+    flex: 1;
+    background-color: whitesmoke;
+}
+.carousel .indicators li.indicator-item.active {
+    background-color: orangered;
+    height: 25px;
+    flex: 1;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 2px;
+    z-index: 1000;
+    transform:skew(-15deg);
+}
+.carousel a.carousel-item {
+    height: 40vw;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item.active {
+    color: white;
+    font-size: 20px !important;
+}
+.carousel-item {
+    color: lightgray;
+    font-size: 20px !important;
+    font-weight: 100px !important;
+}
+/*Inner caroussel item to get a deeper 3D effect*/
+.carousel-inner {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 8px #1a1a1a;
+}
+.carousel-inner img{    
+    height: 30%;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.carousel-inner h1{
+    font-size: 30px !important;
+    font-weight: 600;
+    margin: 0;  
+}
+.carousel-inner h3{
+    font-size: 30px;
+    padding: 0!important;
+    font-weight: 100;
+}
+hr{
+    background-color: #f5f5f5 !important;
+    color: #f5f5f5 !important;
+    width: 95%;
+    margin: 20px 0 50px 0;
+    height: 2px !important;
+    border-radius: 80px !important;
+    box-shadow: 2px 2px 8px #1a1a1a;
+}
+.carousel-inner div{
+    font-size: 25px !important;
+    font-weight: 200;
+}
+
+/* Skill - mostly flexbox */
+.Skill {
+    height: 100vh;
+    background-color: #222222;
+    overflow: hidden;
+    position: relative;
+}
+.container-s {
+    position: absolute;
+    margin: 1vh;
+    right: 100px;
+    bottom: 0px;
+    font-size: 100px;
+    letter-spacing: 50px;
+    z-index: 0;
+    color: whitesmoke;
+    opacity: 10%;
+}
+.container_skills {
+   margin: 100px 0 0 80px;
+    display: flex;
+    height: 80%;
+    width: 60%;
+    flex-wrap: wrap;
+    color: #f5f5f5;
+}
+.img_skill {
+    height: 80px;
+    width: 50px;
+    /* filter to use smokewhite on the SVG's */
+    filter: invert(99%) sepia(2%) saturate(259%) hue-rotate(216deg) brightness(111%) contrast(92%);
+}
+.one_skill {
+    border: whitesmoke 1px solid;
+    background-color: #222222;
+    border-radius: 10px;
+    width: 25%;
+    margin: 2% 2% 5% 0;
+    padding: 20px;
+    z-index: 5;
+}
+.one_skill p{
+    padding: 10px 0 0 0 !important;
+    font-size: 1rem !important;
+}
+.one_skill h1{
+    font-size: 30px !important;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    height: 80px;
+}
+.Skill .navbar {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.active {
+    color: whitesmoke;
+}
+.passive {
+    color: white;
+    opacity: 35%;
+}
+
+/* Experience */
+.date-tree-experience {
+    overflow: visible;
+}
+h1.experience-title {
+    font-size: 50px !important;
+    font-weight: bold !important;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    color: whitesmoke;
+}
+.line {
+    height: 2000px;
+    width: 8px;
+    margin: 50px auto;
+    background: whitesmoke;
+}
+.round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: whitesmoke;
+    position: absolute;
+    border: 1px solid whitesmoke;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.box p {
+    line-height: 30px;
+    color: whitesmoke;
+    margin: 10px 0 20px 0;
+}
+p.date-tree-experience {
+    margin: 10px 0 30px 0;
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 600;
+}
+p.employer-tree-experience {
+    margin: 10px 0 20px 0;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+}
+p.position-tree-experience {
+    margin: 50px 0 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+
+}
+ul.bullets-tree-experience {
+    list-style: none;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: justify;
+    color: whitesmoke;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+li.bullet-tree-experience {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section:nth-last-child(){
+    overflow: visible;
+}
+/* For parallax */
+.box-timeline {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    background: #222222;
+    background-image: url("./images/Mountain.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.box {
+    color: #222222;
+    width: 500px;
+    min-height: 200px;
+    padding: 10px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.btn {
+    display: block;
+    background:rgb(245,245,245,0.7);
+    padding: 10px;
+    width: 160px;
+    text-align: center;
+    color: #222222;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+
+/* POSITIONING OF EXPERIENCE TREE ELEMENTS  */
+
+/* first dot = 50 (box padding) + 2x100 (title padding) + 50 (title font size) = 300px */
+/* last dot = first dot + line length = 300 + 2000 = 2300px */
+/* add space between each dot => 2200 - 50 (box padding) - 2x50 (title padding) - 50 (title font size)  / 3 =~ 667 between each dot  */
+
+/* Position of nods */
+.r1{top: 300px;}
+.r2{top: 967px;}
+.r3{top: 1634px;}
+.r4{top: 2300px;}
+
+/* Position of boxes (i.e. experiences) = position of nods calculated above */
+.b1 {
+    top: 300px;
+    left: calc(45% - 270px);
+}
+.b2 {
+    top: 967px;
+    left: calc(55% + 270px);
+}
+.b3 {
+    top: 1634px;
+    left: calc(45% - 270px);
+}
+.b4 {
+    top: 2300px;
+    left: calc(55% + 270px);
+}
+
+/* First tries for responsivness */
+@media screen and (max-width: 1500px) {
+    .catch-phrase-landing{
+        font-size: 50px;
+        font-weight: 600; 
+        width: 70%;
+        line-height: 1.3;
+    } 
+    .name-landing {
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 10px;  
+        color: #585858;
+        margin-bottom: 30px;   
+    }
+
+    .text-about {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #222222;
+        padding-top: 30px !important;
+        
+    }
+    .upcase-about {
+        font-size: 14px !important;
+        text-align: center;
+        letter-spacing: 10px !important;
+        color: #585858;
+        margin: 50px;
+    }
+    .bold-about {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px !important;
+    }
+
+    /**/
+    .thin-about {
+        text-align: center;
+        margin: 50px;
+        font-size: 15px !important;
+        font-weight: 100;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .one_skill h1{
+        font-size: 20px !important;
+        margin: 0 !important;
+        font-weight: 600 !important;
+        height: 50px;
+    }
+    .img_skill {
+        height: 80px;
+        width: 50px;
+        /* filter to use smokewhite on the SVG's */
+        filter: invert(99%) sepia(2%) saturate(259%) hue-rotate(216deg) brightness(111%) contrast(92%);
+    }
+    .one_skill p{
+        font-size: 0.75rem !important;
+
+    }
+    .Skill .navbar {
+        position: absolute;
+        right: 10%;
+        top: 15%;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .container-s {
+        position: absolute;
+        margin: 1vh;
+        right: 100px;
+        bottom: 50px;
+        font-size: 50px;
+        letter-spacing: 40px;
+        z-index: 0;
+        color: white;
+        opacity: 40%;
+    }
+    .one_skill {
+        border: whitesmoke 1px solid;
+        background-color: #222222;
+        border-radius: 10px;
+        width: 30%;
+        margin: 2% 2% 5% 0;
+        padding: 20px;
+        z-index: 5;
+    }
+    .container_skills {
+        margin: 80px 0 0 80px;
+         display: flex;
+         height: 80%;
+         width: 60%;
+         flex-wrap: wrap;
+         color: #f5f5f5;
+     }
+}
+/* Centering elements for Experience Section */
+@media screen and (max-width: 1000px) {
+
+    .line {
+        position: relative;
+        left: 200px;
+    }
+    .round {
+        left: calc(50% + 200px);
+    }
+    .box {
+        left: calc(50% - 50px)
+    }
+
+}
