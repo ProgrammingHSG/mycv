@@ -1,3 +1,4 @@
+### The present project has been created in the context of the course "3,793 | 4,799: Skills: Programming - Introduction Level" by 2 HSG students
 
 ## The project is composed of the following files:
 * 1 HTML file (index.html) which contains the website structure & content
@@ -29,7 +30,9 @@
 ## How to use this CV template?
 
 #### General Information
+* It is recommended to open this project with the Google Chrome browser as some parts of the JavaScript code might not work in Safari
 * The recommended minimum screen size is 13-inches with a recommended resolution of 1400 × 1050px
+* The level of responsiveness of this website varies depending on the section. As a whole, this website is not adapted to mobile
 * It is not possible to add a section
 * When scrolling, the website transitions from one section to the other (with a smoothing effect). It is not possible to stay "in-between" 2 sections
 * When scrolling to the "About" section, the webstie automatically goes back to the landing page as these 2 sections go hand in hand
