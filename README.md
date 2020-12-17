@@ -13,7 +13,7 @@
 * http://www.gizma.com/easing/
 * https://scrollmagic.io/ (with plugin https://scrollmagic.io/docs/debug.addIndicators.html
 
-## My Dynamic CV Website
+## My Dynamic CV Website (Template)
 * The purpose of this project is to offer an alternative to our traditional static resume (curriculum vitae).
 * Using HTML, CSS & JavaScript, we built a template to present our profile more dynamically with the following sections:
 1) A landing page with interactive animated particles
@@ -22,7 +22,7 @@
 4) A skills & certifications section
 5) An animated experience tree 
 
-**Since this project is constructed as a template, it can filled with one's actual information and redesigned according to one's tastes before being hosted online as a alternative/ complementary resume.**
+**Since this project is constructed as a TEMPLATE, it can filled with one's actual information and redesigned according to one's tastes before being hosted online as a alternative/ complementary resume.**
 
 ### How to have your CV website go live?
 1) You need to register a domain name & subscribe to a hosting platform (e.g. https://www.infomaniak.com/en)
@@ -40,6 +40,7 @@
 
 
 ### Landing Page
+![Preview Landing Page](images/previews/preview_landing.png)
 #### What you can change
 * The picture (please ensure that your image has dimensions of 826 x 1112px)
 * The signature
@@ -49,6 +50,7 @@
 
 
 ### About Section
+![Preview About Section](images/previews/preview_about.png)
 #### What you can change
 * The picture (please ensure that your image has dimensions of 1091 x 475)
 * The text in bold (max. 220 characters with spaces)
@@ -56,6 +58,7 @@
 
 
  ### Education Section
+ ![Preview Education Section](images/previews/preview_education.png)
 #### What you can change
 * The background video/ image (default sizing)
 * The text (following the HTML structure)
@@ -66,6 +69,7 @@
 * The same way, you can also delete an item
 
  ### Skills Section
+ ![Preview Skills Section](images/previews/preview_skills.png)
 #### What you can change
 * Icons (the size will be automatically adjusted)
 * Skill title (max. 2 lines of text as in template)
@@ -74,6 +78,7 @@
 
 
  ### Experience Section
+ ![Preview Experience Section](images/previews/preview_experience.png)
 #### What you can change (please follow the HTML structure)
 * The dates
 * The Company - Location
@@ -86,12 +91,3 @@
 4) In CSS, add the corresponding rule for .bX
 5) In CSS adjust the length of the "line" and calculate the distance between each nod 
 6) Based on the CSS rules explained on line 446, calculate on which pixel to place each node
-
-
-
-
-
-
-
-
-
