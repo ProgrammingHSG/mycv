@@ -22,7 +22,7 @@
 4) A skills & certifications section
 5) An animated experience tree 
 
-**Since this project is constructed as a TEMPLATE, it can filled with one's actual information and redesigned according to one's tastes before being hosted online as a alternative/ complementary resume.**
+**Since this project is constructed as a TEMPLATE, it can be filled with one's actual information and redesigned according to one's tastes before being hosted online as an alternative/ complementary resume.**
 
 ### How to have your CV website go live?
 1) You need to register a domain name & subscribe to a hosting platform (e.g. https://www.infomaniak.com/en)
@@ -36,7 +36,7 @@
 * The level of responsiveness of this website varies depending on the section. As a whole, this website is not adapted to mobile
 * It is not possible to add a section
 * When scrolling, the website transitions from one section to the other (with a smoothing effect). It is not possible to stay "in-between" 2 sections
-* When scrolling to the "About" section, the webstie automatically goes back to the landing page as these 2 sections go hand in hand
+* When scrolling to the "About" section, the website automatically goes back to the landing page as these 2 sections go hand in hand
 
 
 ### Landing Page
@@ -65,13 +65,13 @@
 * The logo 
 * The Destination link (of the whole item) of each education item
 #### How to add an education item?
-* Dupplicate (copy/paste) an existing education item in HTML, the section will automatically adapt
+* Duplicate (copy/paste) an existing education item in HTML, the section will automatically adapt
 * The same way, you can also delete an item
 
  ### Skills Section
  ![Preview Skills Section](images/previews/preview_skills.png)
 #### What you can change
-* Icons (the size will be automatically adjusted)
+* Icons (their size will be automatically adjusted)
 * Skill title (max. 2 lines of text as in template)
 * Skill description (max. 5 lines of text as in template)
 * The list of languages (also possible to add or remove languages and the section will adapt)
